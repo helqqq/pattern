@@ -2,7 +2,6 @@ package com.helq3.test;
 
 import java.util.Date;
 
-import org.junit.Test;
 import org.quartz.CronScheduleBuilder;
 import org.quartz.JobBuilder;
 import org.quartz.JobDetail;
@@ -43,10 +42,5 @@ public class RAMJobTest {
 		
 		//Æô¶¯µ÷¶ÈÆ÷
 		scheduler.start();
-	}
-	
-	@Test
-	public void test() {
-		
 	}
 }
